@@ -9,8 +9,7 @@ Estudando:
 <div style="display: inline_block"><br>
             <a href="https://github.com/Luckas-Ferreira">
             <img align="center" alt="luckas-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-            <img align="center" alt="Luckas-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original-wordmark.svg" />
-            <img align="center" alt="Luckas-CSS" height="30" width="40" src="https://user-images.githubusercontent.com/107446934/174416967-e5bc4f96-109d-4849-af7f-2d6c67b755f2.png">
+            <img align="center" alt="Luckas-Dart" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
             <img align="center" alt="Luckas-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
             <img align="center" alt="Luckas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
             <img align="center" alt="Luckas-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
