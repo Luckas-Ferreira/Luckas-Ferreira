@@ -1,7 +1,7 @@
 ### Olá, Eu sou o Luckas Ferreira
 
 - 💬 Amo aprender novas tecnologias
-- 🌱 Estudando: Java, JavaScript e Python
+- 🌱 Estudando: TypeScript, Angular, Java, JavaScript e Python
 - 😄 Pronouns: ele/dele
 
 ##
