@@ -1,7 +1,7 @@
 ### Olá, Eu sou o Luckas Ferreira
 
 - 💬 Amo aprender novas tecnologias
-- 🌱 Estudando: Node.Js, TypeScript, Angular
+- 🌱 Estudando: Ionic, Node.Js, TypeScript, Angular
 
 ##
 Estudando:
