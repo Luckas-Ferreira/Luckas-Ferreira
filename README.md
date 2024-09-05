@@ -7,8 +7,8 @@
 Estudando:
 <div style="display: inline_block"><br>
             <a href="https://github.com/Luckas-Ferreira">
+            <img align="center" alt="luckas-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/>
             <img align="center" alt="luckas-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg"/>
-            <img align="center" alt="luckas-Java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"/>
             <img align="center" alt="luckas-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
             <img align="center" alt="luckas-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
             <img align="center" alt="Luckas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
