@@ -1,23 +1,39 @@
-name: Generate Datas
+name: Gerar cobrinha de contribuicoes
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  # 00:00 e 12:00 UTC. O antigo "* */12 * * *" disparava a cada MINUTO
+  # durante duas horas do dia (~120 execucoes/dia).
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+
+# Sem isso o GITHUB_TOKEN entra como somente-leitura em repositorios
+# criados/reconfigurados depois de 2023 e o push para a branch output falha.
+permissions:
+  contents: write
 
 jobs:
-  build:
-    name: Jobs to update datas
+  gerar:
+    name: Gerar e publicar SVG
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      # v3 e a versao atual. A antiga "@master" nao consegue mais ler o grafico
+      # de contribuicoes e gerava um SVG vazio de 1.4 KB (so o corpo da cobra).
+      - name: Gerar SVG (tema claro + escuro)
+        uses: Platane/snk@v3
+        id: snake
         with:
-          github_user_name: luckas-ferreira
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark&color_snake=#39d353
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
