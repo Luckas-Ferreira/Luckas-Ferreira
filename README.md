@@ -9,6 +9,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:39d353&height=200&section=header&text=Lucas%20Ferreira&fontSize=48&fontColor=ffffff&fontAlignY=32&desc=Front-End%20Developer%20%C2%B7%20Angular%20%C2%B7%20Co-fundador%20da%20IniPort&descAlignY=52&descSize=16&animation=fadeIn" width="100%" alt="Lucas Ferreira - Front-End Developer" />
 
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=900&color=39D353&center=true&vCenter=true&width=600&height=45&lines=Front-End+Developer;Angular+%7C+React+%7C+Flutter;Co-fundador+da+IniPort;SaaS+B2G+rodando+em+prefeituras" alt="Front-End Developer" />
 
 <p>
